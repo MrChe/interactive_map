@@ -1,0 +1,48 @@
+.svgWrap {
+  background-color: rgb(191, 216, 242);
+  margin-right: 30px;
+}
+
+.countryBoundary {
+  fill: none;
+  stroke: #aaa;
+}
+
+.regionBoundary {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+  fill: #fff6d0;
+}
+
+.regionLabel {
+  fill: #555;
+  fill-opacity: 1;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-anchor: middle;
+}
+
+.coastline, .river, .lake {
+  stroke: rgb(83, 168, 231);
+}
+
+.coastline, .river {
+  fill: none;
+}
+
+.lake {
+  fill: rgb(191, 216, 242);
+}
+
+.percent {
+  fill: #000;
+  fill-opacity: 1;
+  font-size: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-anchor: middle;
+  pointer-events: none;
+}
+

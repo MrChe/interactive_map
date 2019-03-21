@@ -1,0 +1,47 @@
+.toolTipMain {
+  position: fixed;
+  padding: 10px;
+  background-color: white;
+  border:  1px solid #262626;
+  pointer-events: none;
+  z-index: 1;
+
+  span {
+    display: block;
+  }
+}
+
+.ttvis {
+  display: block;
+
+  span {
+    display: block;
+  }
+}
+
+.tthidden {
+  display: none;
+
+  span {
+    display: block;
+  }
+}
+
+.singleProvider {
+  margin: 10px 0;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .provTitle {
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+  }
+
+  .provData {
+    display: block;
+    font-size: 12px;
+  }
+}

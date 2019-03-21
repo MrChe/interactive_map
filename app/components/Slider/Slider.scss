@@ -1,0 +1,38 @@
+.slideCover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 850px;
+
+}
+
+.slideWrap {
+  width: 75%;
+
+  >div {
+    margin: 10px 0 !important;
+  }
+}
+
+.slideSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1070px;
+}
+
+.currDate {
+  display: block;
+  width: 850px;
+  text-align: center;
+  margin: 20px 0 0;
+  font-size: 24px;
+  font-family: serif;
+  color: #363636;
+}
+
+.minmaxdate {
+  font-size: 16px;
+  color: #555555;
+}
